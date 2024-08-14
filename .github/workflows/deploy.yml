@@ -1,14 +1,14 @@
-name: Github Actions 실행시켜보기
+name: 깃허브 cicd 테스트
 
 on:
   push:
-    branch:
+    branches:
       - main
 
 jobs:
-  Myjob:
-    runs-on: ubuntu-latest
+  Mydeploy:
+    runs-on: ununtu-latest
 
     steps:
-      - name: Hello World 찍기
-        run: echo "Hello world"
+      - name: aaaa
+        run: echo "!!!"
